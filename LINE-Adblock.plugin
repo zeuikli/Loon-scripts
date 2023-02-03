@@ -8,6 +8,7 @@
 ^https?:\/\/a\.line\.me\/cs\/v\d\/oa$ - reject
 ^https?:\/\/gw\.line\.naver\.jp\/ext\/lgfp\/lad\/v1$ - reject
 ^https?:\/\/gw\.line\.naver\.jp\/lass\/api\/v1\/ads$ - reject
+^https?:\/\/gw\.line\.naver\.jp\/tr\/event$ - reject
 ^https?:\/\/w\.line\.me\/adp\/api\/ad\/v\d\/ - reject
 ^https?:\/\/buy\.line\.me\/api\/graphql\?variables - reject
 ^https?:\/\/crs-event\.line\.me\/v\d\/imp - reject
@@ -24,6 +25,8 @@
 ^https?:\/\/uts-front\.line-apps\.com\/settings$ - reject
 ^https?:\/\/static\.line-scdn\.net\/ad-sdk\/ - reject
 ^https?:\/\/nelo2-col\.linecorp\.com\/_store$ - reject
+
+
 
 
 # Block Ads End
