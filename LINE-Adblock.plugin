@@ -13,6 +13,7 @@
 ^https?:\/\/gw\.line\.naver\.jp\/ext\/lgfp\/lad\/v1$ - reject
 ^https?:\/\/gw\.line\.naver\.jp\/lass\/api\/v1\/ads$ - reject
 ^https?:\/\/gw\.line\.naver\.jp\/tr\/event$ - reject
+^https?:\/\/lan\.line\.me\/v1\/line\/ios - reject
 ^https?:\/\/legy\.line-apps\.com\/ext\/lgfp\/lad\/v1$ - reject
 ^https?:\/\/legy\.line-apps\.com\/ext\/smartch\/banner\/sch\/v1$ - reject
 ^https?:\/\/legy\.line-apps\.com\/tr\/event$ - reject
@@ -40,4 +41,4 @@
 # Block Ads End
 
 [MITM]
-hostname = a.line.me, ad.line-scdn.net, w.line.me, gw.line.naver.jp, legy.line-apps.com, buy.line.me, crs-event.line.me, obs.line-scdn.net, cix.line-apps.com, d.line-scdn.net, scdn.line-apps.com, sch.line.me, uts-front.line-apps.com, static.line-scdn.net, nelo2-col.linecorp.com
+hostname = %APPEND% a.line.me, ad.line-scdn.net, w.line.me, gw.line.naver.jp, lan.line.me, legy.line-apps.com, buy.line.me, crs-event.line.me, obs.line-scdn.net, cix.line-apps.com, d.line-scdn.net, scdn.line-apps.com, sch.line.me, uts-front.line-apps.com, static.line-scdn.net, nelo2-col.linecorp.com
